@@ -1,6 +1,7 @@
 <template>
   <section>
     <p>This button has {{ likes }} likes!</p>
+    THIS IS A TEST!
 
     <button @click="likeAndSubscribe()">Like & Subscribe</button>
   </section>
