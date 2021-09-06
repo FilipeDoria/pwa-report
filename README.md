@@ -25,7 +25,8 @@ serve -s dist
 ```
 
 ### Compiles and minifies for production
-This command will create a production build of the project that can be sent to a host, this step is included on the deploy.sh which also sends the minified production build to the repository.
+This command will create a production build of the project that can be sent to a host, in order to try the app with the PWA functionality the projects needs to be compiled and built.
+While in development leave vue.config.js prefixed with "_", and remove this before deploying the app on Github pages.
 ```
 npm run build
 ```
